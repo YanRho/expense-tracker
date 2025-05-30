@@ -1,16 +1,28 @@
-# Ignore Python cache
+# Byte-compiled / cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ignore virtual environments
+# Virtual environments
 env/
 .venv/
+ENV/
+venv/
 
-# Ignore environment files
+# Jupyter Notebooks (if ever)
+.ipynb_checkpoints
+
+# VSCode or JetBrains config (optional)
+.vscode/
+.idea/
+
+# Environment variables
 .env
 
-# VSCode settings (optional)
-.vscode/
-
-# MacOS + system files
+# OS-generated files
 .DS_Store
+Thumbs.db
+
+# Log files
+*.log
